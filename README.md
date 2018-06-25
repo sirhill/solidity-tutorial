@@ -2,16 +2,16 @@
 
 This project offer multiple project to help learn solidity
 
-* [Beginner](./beginner/)
+### [Beginner](./beginner/)
   1. [Helloworld](./beginner/01-helloworld)
-  2. [Greetings](./beginner/02-greetings)
+  2. [Counter](./beginner/02-counter)
 
-* Advanced
+### Advanced
   1. SimpleToken
   2. VotingBallot
   3. ChildrenWallet
 
-* Expert
+### Expert
   1. Multisig
   2. Fundraiser
 
