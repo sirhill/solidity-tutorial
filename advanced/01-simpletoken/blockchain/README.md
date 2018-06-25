@@ -13,16 +13,20 @@ To run the tests: `test`
 
 If you want to reuse the contract deployed during the migration you can use the following command:
 ```
-let counter;
-Counter.deployed().then(contract => { counter = contract });
+let token;
+SimpleToken.deployed().then(contract => { token = contract });
 ```
 
-Now `counter.remaining()` should returns 100 as a BigDecimal object.
-You may also compose as a promise as follow to get a more human readable output:
-`count.remaining().then(remaining => remaining.toString(10));`
-
-And `counter.decrement()` should decrement one
-```
+Now the following commands are available :
++ `token.name()`
++ `token.symbol()`
++ `token.decimals()`
++ `token.totalSupply()`
++ `token.balanceOf(<owner>)`
++ `token.allowance(<owner>)`
++ `token.transfer(<to>, <value>)`
++ `token.approve(<spender>, <value>)`
++ `token.transferFrom(<owner>, <spender>, <value>)`
 
 ### Directly from the terminal
 
@@ -33,7 +37,7 @@ You can also run the commands from the command line:
 
 ### Well done !
 
-You have fully functionnal Counter contract.
+You have fully functionnal SimpleToken contract.
 You should find in the build directoy a Counter.json file with is your ABI.
 The ABI will be used to access it from a Decentralized app.
 
