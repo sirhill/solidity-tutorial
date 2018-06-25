@@ -1,0 +1,207 @@
+{
+  "contractName": "HelloWorld",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "message",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60806040526040805190810160405280600d81526020017f48656c6c6f20776f726c642021000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6101a0806101166000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e21f37ce14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561016c5780601f106101415761010080835404028352916020019161016c565b820191906000526020600020905b81548152906001019060200180831161014f57829003601f168201915b5050505050815600a165627a7a72305820b906601dc487273f6cd62a2d299cb31644fbd6012abe2b20ca08b81ec474cdb00029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e21f37ce14610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561016c5780601f106101415761010080835404028352916020019161016c565b820191906000526020600020905b81548152906001019060200180831161014f57829003601f168201915b5050505050815600a165627a7a72305820b906601dc487273f6cd62a2d299cb31644fbd6012abe2b20ca08b81ec474cdb00029",
+  "sourceMap": "26:68:0:-;;;51:39;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;26:68;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:68:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "26:68:0:-;;;;;;;;;;;;;;;;;;;;;;;;51:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;51:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.23;\n\ncontract HelloWorld {\n\n  string public message = \"Hello world !\";\n\n}\n",
+  "sourcePath": "/home/node/project/beginner/01-helloworld/smart-contract/contracts/HelloWorld.sol",
+  "ast": {
+    "absolutePath": "/home/node/project/beginner/01-helloworld/smart-contract/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        5
+      ]
+    },
+    "id": 6,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "message",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "51:39:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "51:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "48656c6c6f20776f726c642021",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:15:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_f1eec9d69e813dd791594452da1d21b20452423e6786af96190186ec71b1ed99",
+                "typeString": "literal_string \"Hello world !\""
+              },
+              "value": "Hello world !"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 6,
+        "src": "26:68:0"
+      }
+    ],
+    "src": "0:95:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/node/project/beginner/01-helloworld/smart-contract/contracts/HelloWorld.sol",
+    "exportedSymbols": {
+      "HelloWorld": [
+        5
+      ]
+    },
+    "id": 6,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".23"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 5,
+        "linearizedBaseContracts": [
+          5
+        ],
+        "name": "HelloWorld",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "message",
+            "nodeType": "VariableDeclaration",
+            "scope": 5,
+            "src": "51:39:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "51:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "48656c6c6f20776f726c642021",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:15:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_f1eec9d69e813dd791594452da1d21b20452423e6786af96190186ec71b1ed99",
+                "typeString": "literal_string \"Hello world !\""
+              },
+              "value": "Hello world !"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 6,
+        "src": "26:68:0"
+      }
+    ],
+    "src": "0:95:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0x8cdaf0cd259887258bc13a92c0a6da92698644c0",
+      "transactionHash": "0xa97bf2f61eb5202b1766597d468be9062abb7045ed008f2cb09bdfc034d60d82"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-25T09:16:25.269Z"
+}
